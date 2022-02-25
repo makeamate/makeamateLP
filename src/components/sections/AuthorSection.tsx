@@ -15,12 +15,12 @@ const AuthorSection: React.FC = () => {
       <ContentWrapper>
         <TextWrapper>
           <Title>
-            Ricardo <br />
-            De Leon <br />
+            Make A <br />
+            Mate <br />
             <span>
-              Front-end
+              Busca tu compi de
               <br />
-              Developer
+              piso ideal
             </span>
           </Title>
           <Description>

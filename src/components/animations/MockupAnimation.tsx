@@ -61,7 +61,7 @@ const Wrapper = styled.div`
     }
     :hover {
       //self
-      filter: brightness(150%) saturate(120%);
+      filter: brightness(110%) saturate(110%);
     }
   }
 
