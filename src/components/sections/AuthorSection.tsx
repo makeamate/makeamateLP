@@ -2,10 +2,10 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 import { H1, MediumText } from "../styles/TextStyles";
 import { themes } from "../styles/ColorStyles";
-
 import MockupAnimation from "../animations/MockupAnimation";
 import WaveBackground from "../background/WaveBackground";
 import DownloadButton from "../buttons/DownloadButton";
+import MenuButton from "../buttons/MenuButton";
 import SocialLinks from "../buttons/SocialLinks";
 
 const AuthorSection: React.FC = () => {
@@ -18,9 +18,9 @@ const AuthorSection: React.FC = () => {
             Make A <br />
             Mate <br />
             <span>
-              Busca tu compi de
+            Una nueva forma de encontrar 
               <br />
-              piso ideal
+            compañero de piso 
             </span>
           </Title>
           <Description>
@@ -28,6 +28,7 @@ const AuthorSection: React.FC = () => {
             mobile applications.
           </Description>
           <DownloadButton title="Resume (cv)" subtitle="Download" />
+          {/* <input type="button" value='Pulsa aqui' href="#TimerSection" /> */}
           <SocialLinks />
         </TextWrapper>
         <MockupAnimation />
