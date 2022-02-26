@@ -7,6 +7,7 @@ import AuthorSection from "../components/sections/AuthorSection";
 import AboutSection from "../components/sections/AboutSection";
 import FooterSection from "../components/sections/FooterSection";
 import ProjectsSection from "../components/sections/ProjectsSection";
+import RoadmapSection from "../components/sections/RoadmapSection";
 import TimerSection from "../components/sections/TimerSection";
 
 const IndexPage: React.FC = () => {
@@ -16,6 +17,7 @@ const IndexPage: React.FC = () => {
       <AuthorSection />
       <AboutSection />
       <ProjectsSection />
+      <RoadmapSection />
       <TimerSection />
       <FooterSection />
     </Layout>
