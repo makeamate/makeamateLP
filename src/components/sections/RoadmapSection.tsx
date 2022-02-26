@@ -1,31 +1,28 @@
 import React from "react";
 import styled from "styled-components";
-import TimerBubbles from "../background/TimerBubbles";
-import CountDownTimer from '../timer/CountDownTimer';
+
 import { themes } from "../styles/ColorStyles";
-import { H1, H2, MediumText } from "../styles/TextStyles";
+import { H2, MediumText } from "../styles/TextStyles";
 
-const dayshoursMinSecs = {days:1, hours:1, minutes: 20, seconds: 40}
-
-const TimerSection: React.FC = () => {
+const RoadmapSection: React.FC = () => {
   return (
-    <Wrapper id="timerSection">
+    <Wrapper id="roadmapSection">
       <Container>
-        <Title>Cuenta atrás</Title>
-        <TimerBubbles />
-        <AboutWrapper>
-          <ContentWrapper>
-            <Text>
-            <CountDownTimer dayshoursMinSecs={dayshoursMinSecs}/>
-            </Text>
-          </ContentWrapper>
-        </AboutWrapper>
+        <Title>ROADMAP MAKE A MATE</Title>
       </Container>
+      <Resp></Resp>
     </Wrapper>
   );
 };
 
-export default TimerSection;
+export default RoadmapSection;
+
+const Resp = styled.img.attrs({
+  src: `/images/animations/roadmap.png`
+})`
+width: 100%;
+height: auto;
+`;
 
 const Wrapper = styled.div`
   max-width: 1234px;
@@ -45,8 +42,6 @@ const Container = styled.div`
 
 const Title = styled(H2)`
   color: ${themes.dark.text2};
-  text-align: center;
-
 
   @media (prefers-color-scheme: light) {
     color: #3913b8;
@@ -77,9 +72,9 @@ const ContentWrapper = styled.div`
   margin: 20px 0px;
 `;
 
-const Text = styled(H1)`
+const Text = styled(MediumText)`
   color: ${themes.dark.text2};
-  text-align: center;
+  text-align: justify;
 
   span {
     color: #e3b82b;
@@ -91,8 +86,8 @@ const Text = styled(H1)`
   @media (prefers-color-scheme: light) {
     color: rgb(0 0 0 / 90%);
   }
-  @media (max-width: 1000px) {
-    font-size: 100px;
+  @media (max-width: 550px) {
+    font-size: 16px;
   }
   @media (max-width: 425px) {
     font-size: 14px;

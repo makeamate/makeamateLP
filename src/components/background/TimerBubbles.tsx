@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const AboutBubbles = () => {
+const TimerBubbles = () => {
   return (
     <>
       <Bubble />
@@ -11,7 +11,7 @@ const AboutBubbles = () => {
   );
 };
 
-export default AboutBubbles;
+export default TimerBubbles;
 
 const Bubble = styled.div`
   position: absolute;
@@ -22,11 +22,11 @@ const Bubble = styled.div`
   z-index: -1;
   transition: 500ms;
 
-  background: linear-gradient(180deg, #2fb8ff 0%, #9eecd9 100%);
+  background: linear-gradient(180deg, #ea2fff 0%, #9eecd9 100%);
   border-radius: 50%;
 
   @media (prefers-color-scheme: dark) {
-    background: linear-gradient(200.44deg, #4316db 13.57%, #e776e3 98.38%);
+    background: linear-gradient(200.44deg, #16dbc4 13.57%, #e776e3 98.38%);
   }
   @media (max-width: 950px) {
     left: 10%;

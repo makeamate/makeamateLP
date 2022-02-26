@@ -115,12 +115,12 @@ const TextWrapper = styled.div`
 `;
 
 const Icon = styled.img`
-  width: 29px;
-  height: 29px;
+  width: 50px;
+  height: 50px;
 
   @media (max-width: 450px) {
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
   }
 `;
 
