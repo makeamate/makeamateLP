@@ -1,34 +1,22 @@
 import React from "react";
 import styled from "styled-components";
 import AboutBubbles from "../background/AboutBubbles";
-
+import CountDownTimer from '../timer/CountDownTimer';
 import { themes } from "../styles/ColorStyles";
 import { H2, MediumText } from "../styles/TextStyles";
+
+const dayshoursMinSecs = {days:1, hours:1, minutes: 20, seconds: 40}
 
 const AboutSection: React.FC = () => {
   return (
     <Wrapper id="aboutSection">
       <Container>
-        <Title>About me</Title>
+        <Title>Cuenta atrás</Title>
         <AboutBubbles />
         <AboutWrapper>
           <ContentWrapper>
             <Text>
-              Hi i'm Ricardo De Leon, a self-taught{" "}
-              <span>front-end developer</span> highly passionate and
-              professional.
-              <br />
-              <br />
-              My passion has always been software development, but above all,
-              that it has an attractive design, that hooks whoever uses it and
-              that makes your experience an unforgettable memory.
-              <br />
-              <br />
-              If you are interested in working with me or hiring me, you can
-              contact me through my email or my social networks.
-              <br />
-              <br />
-              I'm excited that we create the applications of the future!
+            <CountDownTimer dayshoursMinSecs={dayshoursMinSecs}/>
             </Text>
           </ContentWrapper>
         </AboutWrapper>
@@ -89,7 +77,7 @@ const ContentWrapper = styled.div`
 
 const Text = styled(MediumText)`
   color: ${themes.dark.text2};
-  text-align: justify;
+  text-align: center;
 
   span {
     color: #e3b82b;
@@ -101,8 +89,8 @@ const Text = styled(MediumText)`
   @media (prefers-color-scheme: light) {
     color: rgb(0 0 0 / 90%);
   }
-  @media (max-width: 550px) {
-    font-size: 16px;
+  @media (max-width: 1000px) {
+    font-size: 100px;
   }
   @media (max-width: 425px) {
     font-size: 14px;

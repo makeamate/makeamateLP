@@ -19,7 +19,7 @@ const FooterSection = () => {
           Built with
           <img src="images/logos/gatsby-logo.svg" alt="gatsby logo" />
           <img src="images/logos/logo-react.svg" alt="react logo" />
-          by Ricardo De Leon
+          by MakeAMate
           <img src="images/logos/logo-rick.svg" alt="personal logo" />
           {year}
         </Info>
