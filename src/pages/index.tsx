@@ -12,7 +12,7 @@ import TimerSection from "../components/sections/TimerSection";
 const IndexPage: React.FC = () => {
   return (
     <Layout>
-      <SEO title="Ricardo De Leon - Frontend Developer" />
+      <SEO title="Make a Mate 2022" />
       <AuthorSection />
       <AboutSection />
       <ProjectsSection />

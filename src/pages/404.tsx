@@ -12,17 +12,17 @@ const NotFoundPage: React.FC = () => {
     <Wrapper>
       <GlobalStyle />
       <SEO
-        title="Error 404: Not found - Ricardo De Leon"
-        description="Default screen for 404 error"
+        title="Error 404: Not found - Make a mate"
+        description="Pantalla por defecto para el error 404"
       />
       <NotFoundBackground />
       <Container>
         <Title>404</Title>
-        <Message>How did you get here?</Message>
-        <Message>It seems you got lost... </Message>
+        <Message>Cómo has llegado aquí?</Message>
+        <Message>Parece que te has perdido... </Message>
         <a href="/" style={{ width: 320 }}>
           <Link>
-            <Button>Go back home</Button>{" "}
+            <Button>Vuelve a casa</Button>{" "}
           </Link>
         </a>
       </Container>

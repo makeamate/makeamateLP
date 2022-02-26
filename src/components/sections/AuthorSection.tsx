@@ -18,14 +18,13 @@ const AuthorSection: React.FC = () => {
             Make A <br />
             Mate <br />
             <span>
-              Busca tu compi de
+            Una nueva forma de encontrar 
               <br />
-              piso ideal
+              compañero de piso
             </span>
           </Title>
           <Description>
-            Development of web sites and applications, as well as cross-platform
-            mobile applications.
+            Nuestro equipo está preparando la mejor aplicación web para ti.
           </Description>
           <DownloadButton title="Lanzamiento" subtitle="Próximamente" />
           <SocialLinks />
