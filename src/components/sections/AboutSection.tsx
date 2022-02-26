@@ -9,26 +9,24 @@ const AboutSection: React.FC = () => {
   return (
     <Wrapper id="aboutSection">
       <Container>
-        <Title>About me</Title>
+        <Title>Sobre nosotros</Title>
         <AboutBubbles />
         <AboutWrapper>
           <ContentWrapper>
             <Text>
-              Hi i'm Ricardo De Leon, a self-taught{" "}
-              <span>front-end developer</span> highly passionate and
-              professional.
+              Hola! Somos el equipo de{" "} <span>Make A Mate</span>, un grupo de estudiantes
+              de la Universidad de Sevilla, dispuestos a resolver los problemas de nuestro entorno.
               <br />
               <br />
-              My passion has always been software development, but above all,
-              that it has an attractive design, that hooks whoever uses it and
-              that makes your experience an unforgettable memory.
+              Conocemos la existente necesidad de los estudiantes, que anualmente se publicitan por múltiple redes sociales, de encontrar compañero de piso. 
+              Nuestro objetivo es centralizar todas estas búsquedas en un espacio personal común.
               <br />
               <br />
-              If you are interested in working with me or hiring me, you can
-              contact me through my email or my social networks.
+             Pensamos en facilitar al estudiante el encontrar este
+              compañero ideal, que tengas los mismos gustos y aficiones que tú.
               <br />
               <br />
-              I'm excited that we create the applications of the future!
+              Para más información, podéis contactarnos a nuestro correo electrónico <span> makeamate2022@gmail.com</span>
             </Text>
           </ContentWrapper>
         </AboutWrapper>

@@ -5,14 +5,13 @@ import { Caption2, SmallText } from "../styles/TextStyles";
 interface AppProps {
   title: string;
   subtitle: string;
+  onClick?: (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void;
 }
 
-const DownloadButton: React.FC<AppProps> = ({ title, subtitle }) => {
+const DownloadButton: React.FC<AppProps> = ({ onClick, title, subtitle }) => {
   return (
     <Link
-      href="https://drive.google.com/uc?export=download&id=15WSMScOtAdpaciqN7s6Ir5kpj91YvTAv"
-      target="_blank"
-      rel="noopener noreferrer"
+      href="#timerSection" onClick={onClick}
     >
       <Wrapper>
         <IconWrapper>
@@ -116,12 +115,12 @@ const TextWrapper = styled.div`
 `;
 
 const Icon = styled.img`
-  width: 29px;
-  height: 29px;
+  width: 50px;
+  height: 50px;
 
   @media (max-width: 450px) {
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
   }
 `;
 
