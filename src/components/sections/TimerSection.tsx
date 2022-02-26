@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import AboutBubbles from "../background/AboutBubbles";
+import TimerBubbles from "../background/TimerBubbles";
 import CountDownTimer from '../timer/CountDownTimer';
 import { themes } from "../styles/ColorStyles";
 import { H1, H2, MediumText } from "../styles/TextStyles";
@@ -12,7 +12,7 @@ const TimerSection: React.FC = () => {
     <Wrapper id="timerSection">
       <Container>
         <Title>Cuenta atrás</Title>
-        <AboutBubbles />
+        <TimerBubbles />
         <AboutWrapper>
           <ContentWrapper>
             <Text>
