@@ -8,6 +8,7 @@ const isNetlifyProduction = NETLIFY_ENV === "production";
 const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
 
 module.exports = {
+  pathPrefix: "/makeamateLP",
   siteMetadata: {
     title: `Ricardo De Leon - Frontend Developer`,
     description: `Frontend Developer portfolio, you can see my projects and know more about my skills and knowledge.`,
