@@ -13,7 +13,7 @@ const FooterSection = () => {
     <Wrapper id="footerSection">
       <FooterBackground />
       <ContentWrapper>
-        <Title>Contact me</Title>
+        <Title>Contáctanos</Title>
         <SocialLinks />
         <Info>
           Built with
