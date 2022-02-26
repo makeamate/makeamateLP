@@ -1,16 +1,16 @@
 export const navbarData = [
   {
-    title: "About",
-    icon: "/images/icons/profile.svg",
+    title: "Sobre Nosotros",
+    icon: "/images/icons/book.svg",
     link: "#aboutSection",
   },
   {
-    title: "Projects",
-    icon: "/images/icons/book.svg",
+    title: "Equipo",
+    icon: "/images/icons/profile.svg",
     link: "#projectsSection",
   },
   {
-    title: "Contact",
+    title: "Contacto",
     icon: "/images/icons/chat.svg",
     link: "#footerSection",
   },
@@ -18,17 +18,17 @@ export const navbarData = [
 
 export const dropdownData = [
   {
-    title: "About",
-    icon: "/images/icons/profile.svg",
+    title: "Sobre Nosotros",
+    icon: "/images/icons/book.svg",
     link: "#aboutSection",
   },
   {
-    title: "Projects",
-    icon: "/images/icons/book.svg",
+    title: "Equipo",
+    icon: "/images/icons/profile.svg",
     link: "#projectsSection",
   },
   {
-    title: "Contact",
+    title: "Contacto",
     icon: "/images/icons/chat.svg",
     link: "#footerSection",
   },

@@ -20,6 +20,11 @@ export const H3: HTMLElement = styled.h3`
     font-size: 24px;
   }
 `;
+export const H4: HTMLElement = styled.h1`
+  font-weight: bold;
+  font-size: 40px;
+
+`;
 export const BodyIntro: HTMLElement = styled.p`
   font-weight: 500;
   font-size: 24px;

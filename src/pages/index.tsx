@@ -6,7 +6,7 @@ import SEO from "../components/layout/Seo";
 import AuthorSection from "../components/sections/AuthorSection";
 import AboutSection from "../components/sections/AboutSection";
 import FooterSection from "../components/sections/FooterSection";
-import ProjectsSection from "../components/sections/ProjectsSection";
+import TeamSection from "../components/sections/TeamSection";
 import RoadmapSection from "../components/sections/RoadmapSection";
 import TimerSection from "../components/sections/TimerSection";
 
@@ -16,7 +16,7 @@ const IndexPage: React.FC = () => {
       <SEO title="Make a Mate 2022" />
       <AuthorSection />
       <AboutSection />
-      <ProjectsSection />
+      <TeamSection />
       <RoadmapSection />
       <TimerSection />
       <FooterSection />
