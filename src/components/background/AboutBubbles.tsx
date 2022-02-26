@@ -26,7 +26,7 @@ const Bubble = styled.div`
   border-radius: 50%;
 
   @media (prefers-color-scheme: dark) {
-    background: linear-gradient(200.44deg, #4316db 13.57%, #9076e7 98.38%);
+    background: linear-gradient(200.44deg, #4316db 13.57%, #e776e3 98.38%);
   }
   @media (max-width: 950px) {
     left: 10%;
