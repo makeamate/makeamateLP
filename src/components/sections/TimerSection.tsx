@@ -3,13 +3,13 @@ import styled from "styled-components";
 import AboutBubbles from "../background/AboutBubbles";
 import CountDownTimer from '../timer/CountDownTimer';
 import { themes } from "../styles/ColorStyles";
-import { H2, MediumText } from "../styles/TextStyles";
+import { H1, H2, MediumText } from "../styles/TextStyles";
 
 const dayshoursMinSecs = {days:1, hours:1, minutes: 20, seconds: 40}
 
-const AboutSection: React.FC = () => {
+const TimerSection: React.FC = () => {
   return (
-    <Wrapper id="aboutSection">
+    <Wrapper id="timerSection">
       <Container>
         <Title>Cuenta atrás</Title>
         <AboutBubbles />
@@ -25,7 +25,7 @@ const AboutSection: React.FC = () => {
   );
 };
 
-export default AboutSection;
+export default TimerSection;
 
 const Wrapper = styled.div`
   max-width: 1234px;
@@ -45,6 +45,8 @@ const Container = styled.div`
 
 const Title = styled(H2)`
   color: ${themes.dark.text2};
+  text-align: center;
+
 
   @media (prefers-color-scheme: light) {
     color: #3913b8;
@@ -75,7 +77,7 @@ const ContentWrapper = styled.div`
   margin: 20px 0px;
 `;
 
-const Text = styled(MediumText)`
+const Text = styled(H1)`
   color: ${themes.dark.text2};
   text-align: center;
 

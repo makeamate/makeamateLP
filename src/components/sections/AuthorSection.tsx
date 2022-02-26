@@ -27,7 +27,7 @@ const AuthorSection: React.FC = () => {
             Development of web sites and applications, as well as cross-platform
             mobile applications.
           </Description>
-          <DownloadButton title="Resume (cv)" subtitle="Download" />
+          <DownloadButton title="Lanzamiento" subtitle="Próximamente" />
           <SocialLinks />
         </TextWrapper>
         <MockupAnimation />

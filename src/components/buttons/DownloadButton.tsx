@@ -5,14 +5,13 @@ import { Caption2, SmallText } from "../styles/TextStyles";
 interface AppProps {
   title: string;
   subtitle: string;
+  onClick?: (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void;
 }
 
-const DownloadButton: React.FC<AppProps> = ({ title, subtitle }) => {
+const DownloadButton: React.FC<AppProps> = ({ onClick, title, subtitle }) => {
   return (
     <Link
-      href="https://drive.google.com/uc?export=download&id=15WSMScOtAdpaciqN7s6Ir5kpj91YvTAv"
-      target="_blank"
-      rel="noopener noreferrer"
+      href="#timerSection" onClick={onClick}
     >
       <Wrapper>
         <IconWrapper>
