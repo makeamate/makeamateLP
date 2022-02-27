@@ -24,6 +24,14 @@ export const projects = [
         github: "https://github.com/jesrolcad/",
     },
     {
+      img: "images/works/belidia.png",
+      alt: "Francisco Rodriguez preview",
+      title: "Francisco Rodriguez",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      github: "https://github.com/jesrolcad/",
+    },
+    {
         img: "images/works/belidia.png",
         alt: "Iván Romero preview",
         title: "Iván Romero",
