@@ -21,7 +21,7 @@ export const projects = [
         title: "Fernando González",
         desc:
           "Fernando destaca por sus habilidades técnicas, dando un gran valor al equipo cuando se tratan estos temas. Sabe hacer bien su trabajo y ayudar a los demás cuando lo necesitan.",
-        github: "https://github.com/jesrolcad/",
+        github: "https://github.com/fergongar1/",
     },
     {
         img: "images/works/muller.jpeg",
@@ -29,7 +29,7 @@ export const projects = [
         title: "Servando Figueroa",
         desc:
           "Nuestro compañero Servando carece de debilidades, es un miembro trabajador, comprensivo y con una idea clara del negocio, capaz de llevarlo a lo más alto.",
-        github: "https://github.com/jesrolcad/",
+        github: "https://github.com/Servandofg12/",
     },
     {
         img: "images/works/muller.jpeg",
@@ -37,7 +37,7 @@ export const projects = [
         title: "Álvaro Escalante",
         desc:
           "Álvaro aporta al equipo grandes capacidades, es un miembro con mucho potencial como futuro ingeniero, ya que posee muchas facultades tanto técnicas como sociales.",
-        github: "https://github.com/jesrolcad/",
+        github: "https://github.com/alvesccas221/",
     },
     {
         img: "images/works/muller.jpeg",
@@ -45,7 +45,7 @@ export const projects = [
         title: "Paula Ferreira",
         desc:
           "Paula es una figura importante para el equipo por sus aptitudes e inteligencia organizativas. Su mayor talento es saber enfocar el esfuerzo en el lugar idóneo en todo momento.",
-        github: "https://github.com/jesrolcad/",
+        github: "https://github.com/paulaferj/",
     },
     {
         img: "images/works/muller.jpeg",
@@ -53,7 +53,7 @@ export const projects = [
         title: "Javier Ramos",
         desc:
           "Nuestro equipo considera a javier una pieza clave para el progreso de nuestra empresa. Demuestra profesionalidad, disciplina y entiende el proyecto como algo suyo, lo cual se refleja en sus resultados.",
-        github: "https://github.com/jesrolcad/",
+        github: "https://github.com/javramarr1/",
     },
     {
         img: "images/works/muller.jpeg",
@@ -61,7 +61,7 @@ export const projects = [
         title: "Jorge Ruiz-Henestrosa",
         desc:
           "Jorge posee una virtud cuando se trata de la investigación. Tiene mucho potencial como trabajador y es competente cuando se requiere aprender por uno mismo.",
-        github: "https://github.com/jesrolcad/",
+        github: "https://github.com/jorruirui1/",
     }
   ];
   

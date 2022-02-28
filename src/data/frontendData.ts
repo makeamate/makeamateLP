@@ -37,7 +37,7 @@ export const projects = [
         title: "Iván Romero",
         desc:
           "Se trata de una persona con una gran capacidad analítica, muy versátil y dinámica, siempre hace aportaciones de valor que llevan al equipo a llegar más alla de sus metas.",
-        github: "https://github.com/ivaromcos/",
+        github: "https://github.com/ivaromcos-us/",
     },
     {
         img: "images/works/belidia.png",
