@@ -1,5 +1,3 @@
-## 🚀 Portafolio
+## 🚀 LANDING PAGE MAKE A MATE
 
-Plantilla usada para desarrollar mi portafolio de proyectos.
-
-Mi sitio web: 
+web: https://makeamatelpmaster.gatsbyjs.io/
