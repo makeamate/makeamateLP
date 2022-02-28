@@ -14,6 +14,11 @@ export const navbarData = [
     icon: "/images/icons/chat.svg",
     link: "#footerSection",
   },
+  {
+    title: "Roadmap",
+    icon: "/images/icons/Roadmap icon.svg",
+    link: "#roadmapSection",
+  },
 ];
 
 export const dropdownData = [
@@ -31,5 +36,10 @@ export const dropdownData = [
     title: "Contacto",
     icon: "/images/icons/chat.svg",
     link: "#footerSection",
+  },
+  {
+    title: "Roadmap",
+    icon: "/images/icons/Roadmap icon.svg",
+    link: "#roadmapSection",
   },
 ];
