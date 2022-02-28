@@ -4,15 +4,15 @@ export const projects = [
         alt: "Lucía Torres preview",
         title: "Lucía Torres",
         desc:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        github: "https://github.com/jesrolcad/",
+          "Se trata de la coordinadora del equipo de backend. Consigue sacar lo mejor de cada miembro del equipo gracias a sus habilidades de liderazgo y comunicación.",
+        github: "https://github.com/luctorgom/",
     },
     {
         img: "images/works/muller.jpeg",
         alt: "Jesús Roldán preview",
         title: "Jesús Roldán",
         desc:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "Miembro responsable, trabajador y con facilidad natural para la organización. Jesús domina todas las soft skills necesarias para crear un gran grupo.",
         github: "https://github.com/jesrolcad/",
     },
     {
@@ -20,48 +20,48 @@ export const projects = [
         alt: "Fernando González preview",
         title: "Fernando González",
         desc:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        github: "https://github.com/jesrolcad/",
+          "Fernando destaca por sus habilidades técnicas, dando un gran valor al equipo cuando se tratan estos temas. Sabe hacer bien su trabajo y ayudar a los demás cuando lo necesitan.",
+        github: "https://github.com/fergongar1/",
     },
     {
         img: "images/works/muller.jpeg",
         alt: "Servando Figueroa preview",
         title: "Servando Figueroa",
         desc:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        github: "https://github.com/jesrolcad/",
+          "Nuestro compañero Servando carece de debilidades, es un miembro trabajador, comprensivo y con una idea clara del negocio, capaz de llevarlo a lo más alto.",
+        github: "https://github.com/Servandofg12/",
     },
     {
         img: "images/works/muller.jpeg",
         alt: "Álvaro Escalante preview",
         title: "Álvaro Escalante",
         desc:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        github: "https://github.com/jesrolcad/",
+          "Álvaro aporta al equipo grandes capacidades, es un miembro con mucho potencial como futuro ingeniero, ya que posee muchas facultades tanto técnicas como sociales.",
+        github: "https://github.com/alvesccas221/",
     },
     {
         img: "images/works/muller.jpeg",
         alt: "Paula Ferreira preview",
         title: "Paula Ferreira",
         desc:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        github: "https://github.com/jesrolcad/",
+          "Paula es una figura importante para el equipo por sus aptitudes e inteligencia organizativas. Su mayor talento es saber enfocar el esfuerzo en el lugar idóneo en todo momento.",
+        github: "https://github.com/paulaferj/",
     },
     {
         img: "images/works/muller.jpeg",
         alt: "Javier Ramos preview",
         title: "Javier Ramos",
         desc:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        github: "https://github.com/jesrolcad/",
+          "Nuestro equipo considera a javier una pieza clave para el progreso de nuestra empresa. Demuestra profesionalidad, disciplina y entiende el proyecto como algo suyo, lo cual se refleja en sus resultados.",
+        github: "https://github.com/javramarr1/",
     },
     {
         img: "images/works/muller.jpeg",
         alt: "Jorge Ruiz-Henestrosa preview",
         title: "Jorge Ruiz-Henestrosa",
         desc:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        github: "https://github.com/jesrolcad/",
+          "Jorge posee una virtud cuando se trata de la investigación. Tiene mucho potencial como trabajador y es competente cuando se requiere aprender por uno mismo.",
+        github: "https://github.com/jorruirui1/",
     }
   ];
   
