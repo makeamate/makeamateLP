@@ -1,6 +1,6 @@
 export const projects = [
     {
-        img: "images/works/muller.jpeg",
+        img: "images/works/Lucia.png",
         alt: "Lucía Torres preview",
         title: "Lucía Torres",
         desc:
@@ -8,7 +8,7 @@ export const projects = [
         github: "https://github.com/luctorgom/",
     },
     {
-        img: "images/works/muller.jpeg",
+        img: "images/works/Jesus.png",
         alt: "Jesús Roldán preview",
         title: "Jesús Roldán",
         desc:
@@ -16,7 +16,7 @@ export const projects = [
         github: "https://github.com/jesrolcad/",
     },
     {
-        img: "images/works/muller.jpeg",
+        img: "images/works/Fernando.png",
         alt: "Fernando González preview",
         title: "Fernando González",
         desc:
@@ -24,7 +24,7 @@ export const projects = [
         github: "https://github.com/fergongar1/",
     },
     {
-        img: "images/works/muller.jpeg",
+        img: "images/works/Servando.png",
         alt: "Servando Figueroa preview",
         title: "Servando Figueroa",
         desc:
@@ -32,7 +32,7 @@ export const projects = [
         github: "https://github.com/Servandofg12/",
     },
     {
-        img: "images/works/muller.jpeg",
+        img: "images/works/Álvaro.png",
         alt: "Álvaro Escalante preview",
         title: "Álvaro Escalante",
         desc:
@@ -40,7 +40,7 @@ export const projects = [
         github: "https://github.com/alvesccas221/",
     },
     {
-        img: "images/works/muller.jpeg",
+        img: "images/works/Paula.png",
         alt: "Paula Ferreira preview",
         title: "Paula Ferreira",
         desc:
@@ -48,7 +48,7 @@ export const projects = [
         github: "https://github.com/paulaferj/",
     },
     {
-        img: "images/works/muller.jpeg",
+        img: "images/works/Javi.png",
         alt: "Javier Ramos preview",
         title: "Javier Ramos",
         desc:
@@ -56,7 +56,7 @@ export const projects = [
         github: "https://github.com/javramarr1/",
     },
     {
-        img: "images/works/muller.jpeg",
+        img: "images/works/Jorge.png",
         alt: "Jorge Ruiz-Henestrosa preview",
         title: "Jorge Ruiz-Henestrosa",
         desc:
