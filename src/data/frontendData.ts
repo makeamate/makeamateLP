@@ -1,6 +1,6 @@
 export const projects = [
     {
-        img: "images/works/belidia.png",
+        img: "images/works/Ale.png",
         alt: "Alejandro Sanabria preview",
         title: "Alejandro Sanabria",
         desc:
@@ -8,7 +8,7 @@ export const projects = [
         github: "https://github.com/alesancab1/",
     },
     {
-        img: "images/works/belidia.png",
+        img: "images/works/Maria.png",
         alt: "María García preview",
         title: "María García",
         desc:
@@ -24,7 +24,7 @@ export const projects = [
         github: "https://github.com/raupargor/",
     },
     {
-      img: "images/works/belidia.png",
+      img: "images/works/Fran.png",
       alt: "Francisco Rodriguez preview",
       title: "Francisco Rodriguez",
       desc:
@@ -32,7 +32,7 @@ export const projects = [
       github: "https://github.com/FranciscoJRE14/",
     },
     {
-        img: "images/works/belidia.png",
+        img: "images/works/Ivan.png",
         alt: "Iván Romero preview",
         title: "Iván Romero",
         desc:
@@ -40,7 +40,7 @@ export const projects = [
         github: "https://github.com/ivaromcos-us/",
     },
     {
-        img: "images/works/belidia.png",
+        img: "images/works/Adriana.png",
         alt: "Adriana León preview",
         title: "Adriana León",
         desc:
@@ -48,7 +48,7 @@ export const projects = [
         github: "https://github.com/adrleogom/",
     },
     {
-        img: "images/works/belidia.png",
+        img: "images/works/Simeon.png",
         alt: "Siamion Danko preview",
         title: "Siamion Danko",
         desc:

@@ -16,14 +16,10 @@ const TeamSection = () => {
         <Title>Nuestro Equipo</Title>
         <DepartamentoB>
           <br></br>
-          <br></br>
-          <br></br>
           <span>EQUIPO BACKEND</span>
         </DepartamentoB>
         <BackendCards />
         <DepartamentoF>
-          <br></br>
-          <br></br>
           <br></br>
           <span>EQUIPO FRONTEND</span>
         </DepartamentoF>

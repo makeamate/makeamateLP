@@ -18,7 +18,7 @@ const RoadmapSection: React.FC = () => {
 export default RoadmapSection;
 
 const Resp = styled.img.attrs({
-  src: `/images/animations/roadmap.png`
+  src: `/images/animations/roadmap 2.png`
 })`
 width: 100%;
 height: auto;

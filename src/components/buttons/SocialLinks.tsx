@@ -27,13 +27,13 @@ const SocialLinks = () => {
       >
         <FontAwesomeIcon icon={faGithub} size="2x" color="#6e5494" />
       </a>
-      <a
+      {/* <a
         href="makeamate2022@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faGoogle} size="2x" color="#e33b3b" />
-      </a>
+      </a> */}
     </Wrapper>
   );
 };
