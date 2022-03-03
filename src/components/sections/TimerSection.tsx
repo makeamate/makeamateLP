@@ -20,7 +20,7 @@ import { H1, H2, MediumText } from "../styles/TextStyles";
   const tiempoTranscurrido = Date.now();
   const hoy = new Date(tiempoTranscurrido);
   var f1 = hoy.toLocaleDateString();
-  var f2='1/9/2022';
+  var f2='1/6/2022';
   const dias = restaFechas(f1,f2);
 
 
