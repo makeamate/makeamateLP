@@ -19,6 +19,11 @@ export const navbarData = [
     icon: "/images/icons/Roadmap icon.svg",
     link: "#roadmapSection",
   },
+  {
+    title: "Despliegue",
+    icon: "/images/icons/heroku icon.svg",
+    link: "#",
+  },
 ];
 
 export const dropdownData = [
@@ -41,5 +46,10 @@ export const dropdownData = [
     title: "Roadmap",
     icon: "/images/icons/Roadmap icon.svg",
     link: "#roadmapSection",
+  },
+  {
+    title: "Despliegue",
+    icon: "/images/icons/heroku icon.svg",
+    link: "#",
   },
 ];
