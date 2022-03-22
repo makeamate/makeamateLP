@@ -44,7 +44,7 @@ export const projects = [
         alt: "Paula Ferreira preview",
         title: "Paula Ferreira",
         desc:
-          "Paula es una figura importante para el equipo por sus aptitudes e inteligencia organizativas. Su mayor talento es saber enfocar el esfuerzo en el lugar idóneo en todo momento.",
+          "Paula es una figura importante para el equipo por sus aptitudes e inteligencia organizativa. Su mayor talento es saber enfocar el esfuerzo en el lugar idóneo en todo momento.",
         github: "https://github.com/paulaferj/",
     },
     {
@@ -52,7 +52,7 @@ export const projects = [
         alt: "Javier Ramos preview",
         title: "Javier Ramos",
         desc:
-          "Nuestro equipo considera a javier una pieza clave para el progreso de nuestra empresa. Demuestra profesionalidad, disciplina y entiende el proyecto como algo suyo, lo cual se refleja en sus resultados.",
+          "Nuestro equipo considera a Javier una pieza clave para el progreso de nuestra empresa. Demuestra profesionalidad, disciplina y entiende el proyecto como algo suyo, lo cual se refleja en sus resultados.",
         github: "https://github.com/javramarr1/",
     },
     {
