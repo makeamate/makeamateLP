@@ -4,7 +4,7 @@ export const projects = [
         alt: "Alejandro Sanabria preview",
         title: "Alejandro Sanabria",
         desc:
-          "Se trata del coordinador del equipo de frontend. Destacan su habilidades de comunicación y liderazgo, con lo que consigue sacar lo mejor de cada miembro del equipo.",
+          "Se trata del coordinador del equipo de frontend. Destacan sus habilidades de comunicación y liderazgo, con lo que consigue sacar lo mejor de cada miembro del equipo.",
         github: "https://github.com/alesancab1/",
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
         alt: "María García preview",
         title: "María García",
         desc:
-          "María cuenta con una gran vision espacial. Es una persona perfeccionista e implicada, con la que contamos en el equipo para desarrollar una interfaz limpia y pulida",
+          "María cuenta con una gran visión espacial. Es una persona perfeccionista e implicada, con la que contamos en el equipo para desarrollar una interfaz limpia y pulida",
         github: "https://github.com/margarcac1/",
     },
     {
@@ -28,7 +28,7 @@ export const projects = [
       alt: "Francisco Rodriguez preview",
       title: "Francisco Rodriguez",
       desc:
-        "Project Manager del equipo. Demuestra su constancia y capacidades técnicas, además de aportar un apoyo a los compañeros en las dificultades técnicas.",
+        "Project Manager del equipo. Demuestra su constancia y capacidades técnicas, además de aportar un apoyo a los compañeros en las dificultades.",
       github: "https://github.com/FranciscoJRE14/",
     },
     {
@@ -44,7 +44,7 @@ export const projects = [
         alt: "Adriana León preview",
         title: "Adriana León",
         desc:
-          "Adriana es una excelente fuente de creatividad, tiene experiencia con el diseño gráfico y es una excelente persona para ocupar un lugar en el este equipo gracias a sus habilidades.",
+          "Adriana es una excelente fuente de creatividad, tiene experiencia con el diseño gráfico y es una excelente persona para ocupar un lugar en este equipo gracias a sus habilidades.",
         github: "https://github.com/adrleogom/",
     },
     {
