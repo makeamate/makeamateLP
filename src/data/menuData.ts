@@ -22,7 +22,7 @@ export const navbarData = [
   {
     title: "Despliegue",
     icon: "/images/icons/heroku icon.svg",
-    link: "#",
+    link: "https://makeamate-s1.herokuapp.com/",
   },
 ];
 
@@ -50,6 +50,6 @@ export const dropdownData = [
   {
     title: "Despliegue",
     icon: "/images/icons/heroku icon.svg",
-    link: "#",
+    link: "https://makeamate-s1.herokuapp.com/",
   },
 ];

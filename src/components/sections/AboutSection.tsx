@@ -14,19 +14,18 @@ const AboutSection: React.FC = () => {
         <AboutWrapper>
           <ContentWrapper>
             <Text>
-              Hola! Somos el equipo de{" "} <span>Make A Mate</span>, un grupo de estudiantes
-              de la Universidad de Sevilla, dispuestos a resolver los problemas de nuestro entorno.
+              ¡Hola! Somos el equipo de{" "} <span>Make A Mate</span>, un grupo de estudiantes
+              de la Universidad de Sevilla dispuestos a resolver los problemas de nuestro entorno.
               <br />
               <br />
-              Conocemos la existente necesidad de los estudiantes, que anualmente se publicitan por múltiple redes sociales, de encontrar compañero de piso. 
+              Día tras día más estudiantes utilizan múltiples redes sociales para encontrar compañeros de piso. 
               Nuestro objetivo es centralizar todas estas búsquedas en un espacio personal común.
               <br />
               <br />
-             Pensamos en facilitar al estudiante el encontrar este
-              compañero ideal, que tengas los mismos gustos y aficiones que tú.
+              Pensamos en facilitar encontrar al compañero ideal para cada persona, que comparta gustos y aficiones contigo.
               <br />
               <br />
-              Para más información, podéis contactarnos a nuestro correo electrónico <span> makeamate2022@gmail.com</span>
+              Para más información, podéis contactarnos en nuestro correo electrónico <span> makeamate2022@gmail.com</span>
             </Text>
           </ContentWrapper>
         </AboutWrapper>
