@@ -5,9 +5,31 @@ import CountDownTimer from '../timer/CountDownTimer';
 import { themes } from "../styles/ColorStyles";
 import { H1, H2, MediumText } from "../styles/TextStyles";
 
-const dayshoursMinSecs = {days:1, hours:1, minutes: 20, seconds: 40}
+  // Función para calcular los días transcurridos entre dos fechas
+  const restaFechas = function(f1,f2)
+  {
+  var aFecha1 = f1.split('/');
+  var aFecha2 = f2.split('/');
+  var fFecha1 = Date.UTC(aFecha1[2],aFecha1[1]-1,aFecha1[0]);
+  var fFecha2 = Date.UTC(aFecha2[2],aFecha2[1]-1,aFecha2[0]);
+  var dif = fFecha2 - fFecha1;
+  var dias = Math.floor(dif / (1000 * 60 * 60 * 24));
+  return dias;
+  }
+
+  const tiempoTranscurrido = Date.now();
+  const hoy = new Date(tiempoTranscurrido);
+  var f1 = hoy.toLocaleDateString();
+  var f2='1/6/2022';
+  const dias = restaFechas(f1,f2);
+
+
+const dayshoursMinSecs = {days:dias, hours:1, minutes: 20, seconds: 40}
 
 const TimerSection: React.FC = () => {
+
+
+
   return (
     <Wrapper id="timerSection">
       <Container>
