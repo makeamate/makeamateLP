@@ -9,6 +9,7 @@ import FooterSection from "../components/sections/FooterSection";
 import TeamSection from "../components/sections/TeamSection";
 import RoadmapSection from "../components/sections/RoadmapSection";
 import TimerSection from "../components/sections/TimerSection";
+import DeploysSection from "../components/sections/DeploysSection";
 
 const IndexPage: React.FC = () => {
   return (
@@ -19,6 +20,8 @@ const IndexPage: React.FC = () => {
       <TeamSection />
       <RoadmapSection />
       <TimerSection />
+      <DeploysSection />
+
       <FooterSection />
     </Layout>
   );

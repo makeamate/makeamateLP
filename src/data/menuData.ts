@@ -19,10 +19,10 @@ export const navbarData = [
     icon: "/images/icons/Roadmap icon.svg",
     link: "#roadmapSection",
   },
-  {
-    title: "Despliegue",
+   {
+    title: "Despliegues",
     icon: "/images/icons/heroku icon.svg",
-    link: "https://makeamate-s1.herokuapp.com/",
+    link: "#deploysSection",
   },
 ];
 
@@ -48,8 +48,8 @@ export const dropdownData = [
     link: "#roadmapSection",
   },
   {
-    title: "Despliegue",
+    title: "Despliegues",
     icon: "/images/icons/heroku icon.svg",
-    link: "https://makeamate-s1.herokuapp.com/",
+    link: "#deploysSection",
   },
 ];
