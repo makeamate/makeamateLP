@@ -21,7 +21,7 @@ const SocialLinks = () => {
         <FontAwesomeIcon icon={faInstagram} size="2x" color="#c97734" />
       </a>
       <a
-        href="https://github.com/makeamate"
+        href="https://github.com/luctorgom/MakeAMate"
         target="_blank"
         rel="noopener noreferrer"
       >
