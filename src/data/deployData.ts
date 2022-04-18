@@ -17,5 +17,13 @@ export const projects = [
         link: "https://makeamate-s2.herokuapp.com/",
         },
 
+        {
+          img: "images/icons/heroku icon.svg",
+          alt: "S3 preview",
+          title: "Despliegue S3",
+          desc:
+            "Tercera versión de la aplicación, en ella se han desarrollado todos los componentes esperados para el MPV. ¡Esperamos que os guste!",
+          link: "https://makeamate-s3.herokuapp.com/",
+          },
   ];
   

@@ -47,21 +47,6 @@ export const projects = [
           "Paula es una figura importante para el equipo por sus aptitudes e inteligencia organizativa. Su mayor talento es saber enfocar el esfuerzo en el lugar idóneo en todo momento.",
         github: "https://github.com/paulaferj/",
     },
-    {
-        img: "images/works/Javi.png",
-        alt: "Javier Ramos preview",
-        title: "Javier Ramos",
-        desc:
-          "Nuestro equipo considera a Javier una pieza clave para el progreso de nuestra empresa. Demuestra profesionalidad, disciplina y entiende el proyecto como algo suyo, lo cual se refleja en sus resultados.",
-        github: "https://github.com/javramarr1/",
-    },
-    {
-        img: "images/works/Jorge.png",
-        alt: "Jorge Ruiz-Henestrosa preview",
-        title: "Jorge Ruiz-Henestrosa",
-        desc:
-          "Jorge posee una virtud cuando se trata de la investigación. Tiene mucho potencial como trabajador y es competente cuando se requiere aprender por uno mismo.",
-        github: "https://github.com/jorruirui1/",
-    }
+
   ];
   
