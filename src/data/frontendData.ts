@@ -54,6 +54,22 @@ export const projects = [
         desc:
           "Siamion es un recurso fundamental en el equipo, tiene conocimientos técnicos avanzados sobre las tecnologías utilizadas y ayuda tomar buenas decisiones, siempre fundamentadas gracias a su experiencia.",
         github: "https://github.com/siadan/",
-    }
+    },
+    {
+      img: "images/works/Javi.png",
+      alt: "Javier Ramos preview",
+      title: "Javier Ramos",
+      desc:
+        "Nuestro equipo considera a Javier una pieza clave para el progreso de nuestra empresa. Demuestra profesionalidad, disciplina y entiende el proyecto como algo suyo, lo cual se refleja en sus resultados.",
+      github: "https://github.com/javramarr1/",
+  },
+  {
+      img: "images/works/Jorge.png",
+      alt: "Jorge Ruiz-Henestrosa preview",
+      title: "Jorge Ruiz-Henestrosa",
+      desc:
+        "Jorge posee una virtud cuando se trata de la investigación. Tiene mucho potencial como trabajador y es competente cuando se requiere aprender por uno mismo.",
+      github: "https://github.com/jorruirui1/",
+  }
   ];
   
