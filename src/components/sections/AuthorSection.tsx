@@ -6,6 +6,9 @@ import { themes } from "../styles/ColorStyles";
 import MockupAnimation from "../animations/MockupAnimation";
 import WaveBackground from "../background/WaveBackground";
 import DownloadButton from "../buttons/DownloadButton";
+import VIDEO1 from "../buttons/Video1";
+import VIDEO2 from "../buttons/Video2";
+
 import SocialLinks from "../buttons/SocialLinks";
 
 const AuthorSection: React.FC = () => {
@@ -26,7 +29,10 @@ const AuthorSection: React.FC = () => {
           <Description>
             Nuestro equipo está preparando la mejor aplicación web para ti.
           </Description>
+          <VIDEO1 title="Anuncio usuarios" subtitle="Click para visualizar" />
+          <VIDEO2 title="Anuncio inversores" subtitle="Click para visualizar" />
           <DownloadButton title="Lanzamiento" subtitle="Próximamente" />
+
           <SocialLinks />
         </TextWrapper>
         <MockupAnimation />
