@@ -25,5 +25,14 @@ export const projects = [
             "Tercera versión de la aplicación, en ella se han desarrollado todos los componentes esperados para el MPV. ¡Esperamos que os guste!",
           link: "https://makeamate-s3.herokuapp.com/",
           },
+          {
+            img: "images/icons/heroku icon.svg",
+            alt: "PPL preview",
+            title: "Despliegue PPL",
+            desc:
+              "Cuarta versión de la aplicación, en ella se han pulido todos los aspectos desarrollados con las necesidades de los usuarios piloto",
+            link: "https://makeamate-despliegue-ppl.herokuapp.com/",
+            },
   ];
+
   
