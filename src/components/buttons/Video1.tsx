@@ -11,7 +11,7 @@ interface AppProps {
 const DownloadButton: React.FC<AppProps> = ({ onClick, title, subtitle }) => {
   return (
     <Link
-      href="https://www.youtube.com/watch?v=VjAxUHDANNk&ab_channel=MakeAMate" onClick={onClick}
+      href="https://youtu.be/Sk4LZIb2Nfg" onClick={onClick}
     >
       <Wrapper>
         <IconWrapper>
