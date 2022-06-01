@@ -4,6 +4,7 @@ import TimerBubbles from "../background/TimerBubbles";
 import CountDownTimer from '../timer/CountDownTimer';
 import { themes } from "../styles/ColorStyles";
 import { H1, H2, MediumText } from "../styles/TextStyles";
+import LaunchButton from "../buttons/LaunchButton";
 
   // Función para calcular los días transcurridos entre dos fechas
   const restaFechas = function(f1,f2)
@@ -33,13 +34,11 @@ const TimerSection: React.FC = () => {
   return (
     <Wrapper id="timerSection">
       <Container>
-        <Title>Cuenta atrás</Title>
+        <Title>DESPLIEGUE - WPL</Title>
         <TimerBubbles />
         <AboutWrapper>
           <ContentWrapper>
-            <Text>
-            <CountDownTimer dayshoursMinSecs={dayshoursMinSecs}/>
-            </Text>
+          <LaunchButton title="Lanzamiento" subtitle="Disponible" />
           </ContentWrapper>
         </AboutWrapper>
       </Container>
@@ -48,6 +47,21 @@ const TimerSection: React.FC = () => {
 };
 
 export default TimerSection;
+const Link = styled.a`
+  width: 280px;
+
+  @media (max-width: 450px) {
+    width: 220px;
+    height: 70px;
+  }
+`;
+
+const Resp = styled.img.attrs({
+  src: `images/icons/lanzamiento.png`
+})`
+width: 100%;
+height: auto;
+`;
 
 const Wrapper = styled.div`
   max-width: 1234px;
